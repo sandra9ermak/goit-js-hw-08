@@ -22,11 +22,11 @@ if (saveData) {
     message.value = JSON.parse(saveData).message;
 } 
 
-/* form.addEventListener('submit', event => {
+form.addEventListener('submit', event => {
     event.preventDefault();
 
     event.currentTarget.reset();
 
     console.log(saveData);
     localStorage.clear();
-}); */
+});
