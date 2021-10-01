@@ -15,3 +15,11 @@ if (time === false) {
     time = 0;
 };
 player.setCurrentTime(time);
+=======
+//let time = localStorage.getItem("videoplayer-current-time");
+/* 
+if (time === false) {
+    time = 0;
+}; */
+player.setCurrentTime(localStorage.getItem("videoplayer-current-time"));
+localStorage.clear();
