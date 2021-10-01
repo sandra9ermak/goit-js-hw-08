@@ -1,6 +1,3 @@
-
-<<<<<<< Updated upstream
-=======
 const iframe = document.querySelector('iframe');
 const player = new Vimeo.Player(iframe);
 
@@ -11,4 +8,3 @@ player.on('timeupdate', throttle(data => {
 let time = localStorage.getItem("videoplayer-current-time") || 0;
 
 player.setCurrentTime(time);
->>>>>>> Stashed changes
